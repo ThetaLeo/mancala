@@ -19,8 +19,9 @@ ignore-init-module-imports = true
 convention = "numpy"
 
 [tool.poetry.dependencies]
-python = "<3.13,>=3.9"
+python = "<3.12,>=3.9"
 numpy = "^1.26.0"
+tensorflow = "^2.14.0"
 
 [tool.poetry.group.dev.dependencies]
 mypy = "^1.5.1"
